@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003a2d;
+    color: rgb(197, 232, 243);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner {
+    font-size: 1.5em;
+}
+
+#logo img {
+    height: 50px;
+}
+
+#login a {
+    color: rgb(173, 202, 202);
+    text-decoration: none;
+}
+
+nav {
+    background-color: #5499d1;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside#left {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 10px;
+
+}
+
+article {
+    width: 60%;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #427380;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+.video-publicidad {
+  background-color: #b1d9df;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #4288f1;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #99d9f7;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+td {
+    background-color: #bbe7f5;
+    color: #525151;
+}
